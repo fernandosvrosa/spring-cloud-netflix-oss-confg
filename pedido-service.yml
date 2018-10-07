@@ -1,3 +1,6 @@
+server:
+  port: 0
+
 ribbon.eureka.enabled: true
 
 eureka:
