@@ -1,9 +1,6 @@
 server:
   port: 9093
 
-ribbon:
-    listOfServers: http://localhost:${server.port}
-
 eureka:
   instance:
     hostname: localhost
