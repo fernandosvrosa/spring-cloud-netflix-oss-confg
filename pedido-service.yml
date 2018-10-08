@@ -1,8 +1,6 @@
 server:
   port: 9092
 
-ribbon.eureka.enabled: true
-
 eureka:
   instance:
     hostname: localhost
