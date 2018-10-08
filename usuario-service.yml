@@ -2,10 +2,7 @@ server:
   port: 9093
 
 ribbon:
-    eureka:
-      enabled: true
-    listOfServers: localhost:9093
-    ServerListRefreshInterval: 15000
+    listOfServers: http://localhost:9093
 
 eureka:
   instance:
